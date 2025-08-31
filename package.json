@@ -1,0 +1,18 @@
+{
+  "name": "random_quest_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waseemsvm/codecademy_mixed_messages.git"
+  },
+  "keywords": [],
+  "author": "Waseem Akram P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waseemsvm/codecademy_mixed_messages/issues"
+  },
+  "homepage": "https://github.com/Waseemsvm/codecademy_mixed_messages#readme"
+}
