@@ -1,4 +1,4 @@
-export default class QuestGenerator {
+class QuestGenerator {
   constructor(quests, challenges, rewards) {
     this._quests = quests;
     this._challenges = challenges;
@@ -34,9 +34,9 @@ export default class QuestGenerator {
   }
 
   generateQuest() {
-    const quest = getRandomElement(this._quests);
-    const challenge = getRandomElement(this._challenges);
-    const reward = getRandomElement(this._rewards);
+    const quest = this.getRandomElement(this._quests);
+    const challenge = this.getRandomElement(this._challenges);
+    const reward = this.getRandomElement(this._rewards);
 
     return {
       quest,
@@ -45,3 +45,5 @@ export default class QuestGenerator {
     };
   }
 }
+
+export default QuestGenerator;
